@@ -1,0 +1,45 @@
+*{
+box-sizing: border-box;
+}
+
+body {
+margin: 0;
+background: gray;
+}
+
+nav{
+background: #594848;
+width: 100%;
+overflow: auto;
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.navbar {
+    width: 100%;
+    background-color: #555;
+    overflow: auto;
+  }
+  
+  .navbar a {
+    float: left;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    width: 25%; 
+    text-align: center;
+  }
+  
+  .navbar a:hover {
+    background-color: #000;
+  }
+  
+  .navbar a.active {
+    background-color: #4CAF50;
+  }
+  
